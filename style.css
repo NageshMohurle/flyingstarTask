@@ -309,9 +309,7 @@ footer {
         /* align-items: center; */
     }
 
-    nav .left-nav {
-       
-    }
+    nav .left-nav {}
 
     nav .right-nav {
         flex-direction: column;
@@ -388,9 +386,11 @@ footer {
     }
 
     .footer-bottom {
-        flex-direction: column;
         align-items: center;
         font-size: 0.7rem;
+        width: 74%;
+        line-height: 2;
+        height: 23vh;
     }
 }
 
@@ -398,6 +398,8 @@ footer {
     .left-nav {
         display: none;
     }
+
+
 
     .carousel-img {
         height: 40vh;
